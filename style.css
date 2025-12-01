@@ -1368,7 +1368,7 @@ width: 100%;
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .footer-container {
     flex-direction: column;
     text-align: center;
@@ -1405,7 +1405,7 @@ body {
 
 
 /* For mobile phones */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
   *, *::before, *::after {
     box-sizing: border-box;
