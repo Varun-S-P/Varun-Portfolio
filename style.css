@@ -1366,8 +1366,9 @@ width: 100%;
   color: #aaa;
 }
 
-/* Responsive */
-@media (max-width: 900) {
+
+
+@media (max-width: 900px) {
   .footer-container {
     flex-direction: column;
     text-align: center;
@@ -1377,6 +1378,8 @@ width: 100%;
     justify-content: center;
   }
 }
+
+
 
 body {
     opacity: 0;
@@ -1404,7 +1407,15 @@ body {
 /* For mobile phones */
 @media screen and (max-width: 600px) {
 
-  *, *::before, *::after { box-sizing: border-box; } and html,body { margin:0; overflow-x:hidden; }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
   
   body {
     width: 100%;
