@@ -1405,7 +1405,7 @@ body {
 
 
 /* For mobile phones */
-@media (max-width: 900px) {
+@media (max-width: 300px) {
 
   *, *::before, *::after {
     box-sizing: border-box;
