@@ -1419,6 +1419,8 @@ body {
   } 
   .header{
     position: sticky;
+    top: 0;
+    z-index: 100;
   }
   .nav-links {
     font-size: 12px;
