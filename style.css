@@ -1417,6 +1417,9 @@ body {
     max-width: 100%;
     padding-right: 0;
   } 
+  .header{
+    position: sticky;
+  }
   .nav-links {
     font-size: 12px;
     gap: 15px;
