@@ -1415,6 +1415,10 @@ body {
     max-width: 100%;
     padding-right: 0;
   } 
+  .container{
+    max-width: 90%;
+    margin:0;
+  }
   .header{
     position: sticky;
     top: 0;
