@@ -1410,10 +1410,9 @@ body {
   *, *::before, *::after { box-sizing: border-box; }
   
   html, body {
-    margin:0
-    overflow-x: hidden;
+    margin:0;
+    overflow: hidden;
     max-width: 100%;
-    padding-right: 0;
   } 
   .header{
     position: sticky;
