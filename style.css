@@ -1405,14 +1405,12 @@ body {
 
 
 /* For mobile phones */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
 
-  *, *::before, *::after { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: border-box; } and html,body { margin:0; overflow-x:hidden; }
   
-  html, body {
-    margin:0;
-    overflow: hidden;
-    max-width: 100%;
+  body {
+    width: 100%;
   } 
   .header{
     position: sticky;
