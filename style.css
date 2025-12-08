@@ -1437,7 +1437,7 @@ body {
   #mypic{
     position: absolute;
     top: 121.5px;
-    left: 142.3px;
+    left: 139px;
     width: 46%;
     height: 28%;
   }
@@ -1492,6 +1492,7 @@ body {
 .buttons{
   position: relative;
   top: 110%;
-  left: auto;
+  left: 0%;
+  right: 100% 
   padding: 0px;
 }
