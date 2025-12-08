@@ -1489,6 +1489,11 @@ body {
   height: 40px;
     
 }
+.buttons{
+  position: relative;
+  top: 100%;
+  left: 40%;
+  
 
   
 }
