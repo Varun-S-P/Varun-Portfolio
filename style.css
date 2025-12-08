@@ -1438,7 +1438,7 @@ body {
     position: absolute;
     top: 121.5px;
     left: 142.3px;
-    width: 50%;
+    width: 46%;
     height: 28%;
   }
   .hero-content{
@@ -1492,5 +1492,6 @@ body {
 .buttons{
   position: relative;
   top: 110%;
-  left: 0.5%;
+  left: auto;
+  padding: 0px;
 }
