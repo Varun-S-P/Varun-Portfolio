@@ -1489,10 +1489,9 @@ body {
   height: 40px;
     
 }
-.buttons{
-  position: relative;
-  top: 110%;
-  left: 0%;
-  right: 100% 
+.buttons{ 
   padding: 0px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
